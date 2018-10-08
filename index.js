@@ -8,7 +8,7 @@ function start(options) {
   const stats = new Map();
   const screen = new Screen({
     head: [
-      "Host",
+      "Socket Name",
       "Created",
       "In Use",
       "Requests",
