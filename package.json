@@ -3,7 +3,9 @@
   "version": "0.0.1",
   "description": "Monitor socket connections in Node.js",
   "main": "index.js",
-  "scripts": {},
+  "scripts": {
+    "test": "mocha --exit"
+  },
   "keywords": [
     "monitor",
     "socket",
@@ -27,5 +29,8 @@
   "files": [
     "index.js",
     "lib"
-  ]
+  ],
+  "devDependencies": {
+    "mocha": "^5.2.0"
+  }
 }
