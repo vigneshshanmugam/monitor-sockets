@@ -1,0 +1,31 @@
+{
+  "name": "monitor-sockets",
+  "version": "0.0.1",
+  "description": "Monitor socket connections in Node.js",
+  "main": "index.js",
+  "scripts": {},
+  "keywords": [
+    "monitor",
+    "socket",
+    "sockets",
+    "connections"
+  ],
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/vigneshshanmugam/monitor-sockets.git"
+  },
+  "author": "Vignesh Shanmugam <vignesh.shanmugam22@gmail.com> (https://vigneshh.in)",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/vigneshshanmugam/monitor-sockets/issues"
+  },
+  "homepage": "https://github.com/vigneshshanmugam/monitor-sockets#readme",
+  "dependencies": {
+    "cli-table": "^0.3.1",
+    "shimmer": "^1.2.0"
+  },
+  "files": [
+    "index.js",
+    "lib"
+  ]
+}
